@@ -1,0 +1,15 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8760/eureka/
+server:
+  port: 8762
+spring:
+  application:
+    name: eureka-client-two
+logging:
+  file: "logs/eureka-client-two.log"
+management:
+  security:
+    enabled: false
+
